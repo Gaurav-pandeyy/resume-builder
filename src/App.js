@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+        <Header />
+    <div>
+    <div className="text">
+        <h1 >Resume builder</h1>
+       <p>Welcome to our Resume Builder. Craft a professional, eye-catching resume <br/>in minutes with our user-friendly tools and
+            expert-designed templates. <br/> Stand out to employers and take the next step in your career journey.</p>
+        </div>
+      
     </div>
+    </>
   );
 }
-
 export default App;
